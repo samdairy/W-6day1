@@ -1,7 +1,7 @@
 from flask import blueprint,render_template
 
 
-site = Blueprint('site', __name__, template_folder='site_templates' )
+site = blueprint('site', __name__, template_folder='site_templates' )
 
 
 
